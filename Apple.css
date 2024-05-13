@@ -1,0 +1,873 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.APPLE{
+    background-color:transparent;
+    height: 5%;
+   width: 100%;
+}
+
+
+.arriba{
+    list-style: none;
+}
+
+
+.arriba{
+    padding: 1%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fr{
+    list-style: none;
+}
+
+#buno{
+    position: absolute;
+    bottom: 35%;
+    right: 35%;
+    font-size: 400%;
+}
+#bdos{
+    right: 33%;
+    position: absolute;
+    bottom: 30%;
+    font-size: 200%;
+}
+.apple{
+    cursor: pointer;
+    font-size: 90%;
+}
+
+
+.apple a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#apledos{
+    cursor: pointer;
+    position: absolute;
+    font-size: 390%;
+    color: #fff;
+    top: 170%;
+    left: 42%;
+}
+#apletres{
+    cursor: pointer;
+    position: absolute;
+    font-size: 200%;
+    color: #fff;
+    top: 180%;
+    left: 31%;
+}
+
+.aplecuatro{
+    cursor: pointer;
+    position: absolute;
+    top: 169%;
+    left: 36%;
+}
+
+#aplecinco{
+    cursor: pointer;
+    position: absolute;
+    top: 190%;
+    right: 52%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    background-color: #fff;
+    border-color:rgba(0,0,0,0) ;
+}
+
+.apleseis{
+    cursor: pointer;
+    border-color:aliceblue;
+    background: transparent ;
+    color:#fff;
+    position: absolute;
+    top: 190%;
+    right: 38%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+}
+
+.apleseis:hover{
+background-color:#F5F5F7;
+color: black;
+}
+
+.apleseis:active{
+    background-color: #F5F5F7;
+    color: black;
+}
+
+.img{
+    cursor: pointer;
+}
+
+.boton{
+    background-color:#0071e3;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+     bottom: 20%;
+     left: 45%;
+     width: 10%;
+     height: 5%;
+    cursor: pointer;
+    border-radius: 45px;
+}
+.clase{
+    list-style: none;
+}
+
+.clase{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.flopuno{
+    cursor: pointer;
+    position: absolute;
+top: 260%;
+    font-size: 400%;
+}
+
+.flopdos{
+    cursor: pointer;
+    position: absolute;
+    top: 270%;
+    font-size: 200%;
+}
+
+.mas{
+    background-color:#0071e3;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    top: 280%;
+     left: 45%;
+     width: 10%;
+     height: 5%;
+    cursor: pointer;
+    border-radius: 45px;
+}
+
+.imagenes{
+    cursor: pointer;
+    display: flex;
+justify-content: space-evenly;
+align-content: center;
+margin: 1% 0% 1% 0;
+
+}
+
+
+.imagenesdos{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 1% 0% 1% 0;
+}
+
+.imagenestres{
+    cursor: pointer;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-end;
+    /*arriba,derecha,abajo,izquierdo*/
+    margin: 1% 0% 1% 0;
+
+}
+
+
+.hi{
+    cursor: pointer;
+    list-style: none;
+}
+
+.heroes{
+    cursor: pointer;
+/*arriba,derecha,abajo,izquierdo*/
+    padding: 0% 0% 1% 0%;
+}
+
+.home{
+    cursor: pointer;
+}
+
+.event{
+    cursor: pointer;
+}
+
+.hola{
+    cursor: pointer;
+    color:#fff;
+    position: absolute;
+    top: 305%;
+    left: 20%; 
+    font-size: 200%;
+}
+.holados{
+    cursor: pointer;
+    color: #F5F5F7;
+    position: absolute;
+    top: 314%;
+    left: 13%;
+    font-size: 120%;
+}
+
+.ab{
+    cursor: pointer;
+    background-color: #0071e3;
+    display: inline-block;
+    position: absolute;
+    top: 320%;
+    left: 14%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+}
+
+.evento{
+    cursor: pointer;
+    background-color: #0071e3;
+}
+
+.eb{
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color:#2997ff;
+    border-color: #2997ff;
+    position: absolute;
+    top: 320%;
+    right: 62%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+
+}
+
+.eb:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.eb:active{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+
+.mam{
+    list-style: none;
+}
+
+.re{
+    cursor: pointer;
+    color:black;
+    position: absolute;
+   top: 305%;
+    left: 70%; 
+    font-size: 200%;
+}
+
+.ru{
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 313%;
+    left: 64%;
+    font-size: 120%;
+}
+
+.sa{
+    cursor: pointer;
+    color: black;
+    position:absolute;
+    top: 320% ;
+    left: 65%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    background-color: #0071e3;
+    display: inline-block;
+}
+.se{
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color:#2997ff;
+    border-color: #2997ff;
+    position: absolute;
+    top: 320%;
+    left: 77%;  
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+}
+
+.se:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.se:active{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.watch{
+    list-style: none;
+}
+
+.rosab{
+    cursor: pointer;
+    position: absolute;
+    top: 370%;
+    right: 77%;
+}
+
+.rosa{
+    cursor: pointer;
+    color:#fff;
+    position: absolute;
+    left: 23%;
+    top: 371%;
+    font-size: 160%;
+}
+
+.rosauno{
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    left: 23%;
+    top: 376%;
+    font-size: 90%;
+}
+
+.rosatres{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 380%;
+    left: 12%;
+    font-size: 160%;
+}
+
+.rosacuatro{
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 384%;
+    left: 22%;
+    font-size: 160% ;
+}
+
+.luna{
+    cursor: pointer;
+    color: black;
+    position:absolute;
+    top: 390% ;
+    left: 12%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    background-color: #0071e3;
+    display: inline-block;
+}
+.sol{
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color:#2997ff;
+    border-color: #2997ff;
+    position: absolute;
+    top: 390%;
+    left: 26%;  
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+}
+
+.sol:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.sol:active{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.mec{
+    list-style: none;
+}
+
+.la{
+    cursor: pointer;
+    color: black;
+    position:absolute;
+    top: 385% ;
+    left: 65%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    background-color: #0071e3;
+    display: inline-block;
+}
+
+.le{
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color:#2997ff;
+    border-color: #2997ff;
+    position: absolute;
+    top: 385%;
+    left: 77%;  
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+}
+
+.le:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.le:active{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.mac{
+    cursor: pointer;
+    color:black;
+    position: absolute;
+    left: 70%;
+    top: 370%;
+    font-size: 200%;
+}
+
+.m3{
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    left: 65%;
+    top: 376%;
+    font-size: 150%;
+}
+
+.card{
+    cursor: pointer;
+    list-style: none;
+}
+
+.alt{
+    cursor: pointer;
+    position: absolute;
+    top: 509%;
+    right: 76%;
+}
+
+.ca{
+    cursor: pointer;
+    position: absolute;
+    top: 430%;
+    right: 74%;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alt{
+    cursor: pointer;
+    position: absolute;
+    top: 430%;
+    right: 80%;
+}
+
+.de{
+    cursor: pointer;
+    position: absolute;
+    top: 435%;
+    right: 70%;
+    font-size: 150%;
+}
+
+.efectivo{
+    cursor: pointer;
+    position: absolute;
+    top: 439%;
+    left: 14%;
+    font-size: 130%;
+}
+
+.compra{
+    cursor: pointer;
+    position: absolute;
+    top: 443%;
+    left: 18%;
+    font-size: 130%;
+}
+
+.ap{
+    cursor: pointer;
+    color: black;
+    position:absolute;
+    top: 450% ;
+    left: 10%;
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    background-color: #0071e3;
+    display: inline-block;
+}
+
+.Aplica{
+    cursor: pointer;
+    background: rgba(0,0,0,0);
+    color:#2997ff;
+    border-color: #2997ff;
+    position: absolute;
+    top: 450%;
+    left: 25%;  
+    border-radius: 45px;
+    width: 10%;
+    height: 6%;
+}
+
+.Aplica:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.Aplica:active{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+
+.trade{
+    list-style: none;
+}
+
+
+
+.credito{
+    cursor: pointer;
+    position: absolute;
+    top: 430%;
+    left: 70%;
+}
+
+.trad{
+    cursor: pointer;
+    position: absolute;
+    top: 430%;
+    left: 73%;
+    font-size: 200%;
+}
+
+.en{
+    cursor: pointer;
+    position: absolute;
+    top: 435%;
+    left: 65%;
+    font-size:160% ;
+}
+
+.cuando{
+    cursor: pointer;
+    position: absolute;
+    top: 440%;
+    left: 66%;
+    font-size: 140%;
+}
+
+.phone{
+    cursor: pointer;
+    position: absolute;
+    top: 445%;
+    left: 70%;
+    font-size: 130%;
+}
+
+
+.in{
+    cursor: pointer;
+    color: black;
+    position:absolute;
+    top: 450% ;
+    left: 68%;
+    border-radius: 45px;
+    width: 19%;
+    height: 6%;
+    border-color: rgba(0,0,0,0);
+    color: aliceblue;
+    display: inline-block;
+    background-color: #0071e3;
+    display: inline-block;
+}
+
+.thumb{
+    display: flex;
+    justify-content: space-between;
+margin: 1% 0% 1% 0;
+
+}
+
+.parrafo{
+    background: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+     /*arriba,derecha,abajo,izquierdo*/
+     padding: 2%;
+}
+
+
+.padre{ 
+    background: rgb(245, 245, 247);
+    border: solid rgba(194, 191, 191) 1px;
+height: 95%;
+width: 100%;
+padding: 2% 0% 2% 0%;
+margin: 0% 0.5% 0% 0%;
+}
+
+.hij{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.pad{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pad a{
+    text-decoration: none;
+    color: black;
+}
+.pad a:hover{
+    text-decoration: underline;
+}
+
+.ped{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.ped a{
+    text-decoration: none;
+    color: black;
+}
+.ped a:hover{
+    text-decoration: underline;
+}
+
+.store{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.store a{
+    text-decoration: none;
+    color: black;
+}
+
+.store a:hover{
+    text-decoration: underline;
+}
+.for{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.for a{
+    text-decoration: none;
+    color: black;
+}
+
+.for a:hover{
+    text-decoration: underline;
+}
+
+.acc{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.acc a{
+    text-decoration: none;
+    color: black;
+}
+
+.acc a:hover{
+    text-decoration: underline;
+}
+
+
+
+.shop{
+padding: 0% 0% 8% 0%;
+}
+.bac{
+    border: solid rgba(194, 191, 191) 1px;
+}
+
+.lista{
+    list-style: none;
+}
+
+
+.lista{
+    background: rgb(245, 245, 247);
+    display: flex;
+    font-size: 90%;
+    justify-content: space-between;
+    padding: 2% 1% 1% 2%;
+}
+ .lista a{
+    text-decoration: none;
+    color: black;
+ }
+
+.lista a:hover{
+    text-decoration: underline;
+} 
+
+.uni{
+    margin: 0% 0% 1% 20%;
+}
+
+.more{
+    background: rgb(245, 245, 247);
+    /*arriba,derecha,abajo,izquierdo*/
+    height: 2%;
+    width: 100%;
+    padding: 4% 0% 0% 0%;
+}
+.may{
+    list-style: none;
+}
+.may a{
+    text-decoration: none;
+    color: black;
+}
+
+.may a:hover{
+    text-decoration: underline;
+}
+
+.may{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bas{
+    position: absolute;
+    right: 85%;
+}
+
+.find{
+    position: absolute;
+    right: 72%;
+}
+
+.bes{
+    position: absolute;
+    right: 70%;
+}
+
+.locate{
+    position: absolute;
+    left: 31%;
+}
+
+.bis{
+    position: absolute;
+    right: 54%;
+}
+
+.bos{
+    position: absolute;
+    right: 36%;
+}
+
+/* .imagenes{
+    cursor: pointer;
+    display: flex;
+justify-content: space-evenly;
+align-content: center;
+margin: 1% 0% 1% 0;
+
+} */
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.animation{
+    padding: 72px 0px; 
+    white-space:nowrap;
+}
+
+.movimiento-slide{
+display: inline-block;
+animation: 20s slide infinite linear;
+}
+
+.movimiento-slide img{
+    margin: 0px 15px;
+    border-radius: 25px;
+}
